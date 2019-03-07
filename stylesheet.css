@@ -1,5 +1,5 @@
 .header {
-	margin: -25px 0 0 1px;
+	margin: -55px 0 0 1px;
 	padding-right: 20px;
 	height: 250px;
 	width: 100%;
@@ -7,4 +7,13 @@
 	background-repeat: no-repeat;
   	background-size: 100% 400px;	
   	background-position: center;
+}
+#header {
+
+}
+#h1 {
+	text-align: center;
+	color: red;
+	font-size: 80px;
+	padding-top: 145px;
 }
