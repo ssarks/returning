@@ -1,0 +1,10 @@
+.header {
+	margin: -25px 0 0 1px;
+	padding-right: 20px;
+	height: 250px;
+	width: 100%;
+	background-image: url('hder.gif');
+	background-repeat: no-repeat;
+  	background-size: 100% 400px;	
+  	background-position: center;
+}
