@@ -21,8 +21,13 @@
 	</div>
 	<div class="body">
 		<div class="bg1">
-			
+		<div class="text1" id="textOne">
+			<p><b>
+				The story focus on the world of illegal Japanese street racing, where all the action is concentrated in the mountain passes and rarely in cities nor urban areas, and the drift racing style is emphasized in particular. Keiichi Tsuchiya helps with editorial supervision. The story is centered on the Japanese prefecture of Gunma, more specifically on several mountains in the Kantō region and in their surrounding cities and towns. Although some of the names of the locations (Mt. Akina which is based on Mt. Haruna) the characters race in have been fictionalized, all of the locations in the series are based on actual locations in Japan.
+			</b></p>
 		</div>
+		</div>
+
 		<div class="bg2">
 			
 		</div>
@@ -42,6 +47,18 @@
 				else{
 					navbar.style.background = "transparent";
 					navbar.style.boxShadow = "none";
+				}
+			}
+		var textOne = document.getElementById('textOne');
+
+			window.onscroll = function(){
+				if (window.pageYOffset > 150) {
+					textOne.style.background = "black";
+					textOne.style.boxShadow = "0px 4px 2px yellow";
+				}
+				else{
+					textOne.style.background = "transparent";
+					textOne.style.boxShadow = "none";
 				}
 			}
 
